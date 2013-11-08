@@ -9,7 +9,6 @@ homebrew-stm32
 brew tap nitsky/stm32
 ```
 
-
 3. Install gcc for ARM:
 
 ```
