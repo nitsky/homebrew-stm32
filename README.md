@@ -7,4 +7,4 @@ homebrew-stm32
 
 3. Install gcc for ARM: `brew install arm-none-eabi-gcc`
 
-4. Install stlink: `brew install stlink`
+4. Install stlink: `brew install --HEAD stlink`
