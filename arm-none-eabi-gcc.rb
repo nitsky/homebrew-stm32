@@ -1,3 +1,4 @@
+require 'byebug'
 class ArmNoneEabiGcc < Formula
   desc "GCC for embedded ARM processors"
   homepage "https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads"
@@ -6,6 +7,7 @@ class ArmNoneEabiGcc < Formula
   sha256 "c1c4af5226d52bd1b688cf1bd78f60eeea53b19fb337ef1df4380d752ba88759"
 
   def install
+    byebug
     prefix.install "arm-none-eabi", "bin", "lib", "share"
   end
 end
