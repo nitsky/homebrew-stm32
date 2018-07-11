@@ -6,6 +6,6 @@ class ArmNoneEabiGcc < Formula
   sha256 "c1c4af5226d52bd1b688cf1bd78f60eeea53b19fb337ef1df4380d752ba88759"
 
   def install
-    cp_r ["arm-none-eabi", "bin", "lib", "share"], "#{prefix}/"
+    prefix.install "arm-none-eabi", "bin", "lib", "share"
   end
 end
